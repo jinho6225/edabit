@@ -12,7 +12,6 @@ Notes
 N/A
 */
 function sevenBoom(arr) {
-  debugger;
   for (let i = 0; i < arr.length; i++) {
     var newArr = arr[i].toString().split("")
     if (newArr.includes("7")) {
