@@ -42,10 +42,8 @@ There will be at least one layer for each rug.
 */
 
 function countLayers(rug) {
-  debugger;
   var a = Math.floor(rug.length/2)
   var b = Math.floor(rug[a].length/2)
-  debugger;
   var count = 1;
   for (let i = 0; i < b; i++) {
     if (rug[a][i] !== rug[a][i+1]) {
